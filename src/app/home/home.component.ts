@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MeetingsTasksType } from '../models/crmapp-data/meetings-tasks';
 import { CustomersType } from '../models/northwind/customers';
+import { MeetingsTasksType } from '../models/crmapp-data/meetings-tasks';
 import { RevenueType } from '../models/e-commerce/revenue';
 import { ECommerceService } from '../services/ecommerce.service';
 import { CRMAppDataService } from '../services/crmapp-data.service';

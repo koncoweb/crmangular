@@ -69,6 +69,12 @@
       </div>
     </div>
     <igx-grid [data]="northwindCustomers" primaryKey="contactName" displayDensity="cosy" [allowFiltering]="true" filterMode="excelStyleFilter" routerLink="/account-sample" class="grid">
+      <igx-grid-toolbar>
+        <igx-grid-toolbar-actions>
+          <igx-grid-toolbar-exporter></igx-grid-toolbar-exporter>
+        </igx-grid-toolbar-actions>
+        <igx-grid-toolbar-title>Grid Toolbar</igx-grid-toolbar-title>
+      </igx-grid-toolbar>
       <igx-column field="customerID" dataType="string" header="customerID" [sortable]="true" [selectable]="false"></igx-column>
       <igx-column field="companyName" dataType="string" header="companyName" [sortable]="true" [selectable]="false"></igx-column>
       <igx-column field="contactName" dataType="string" header="contactName" [sortable]="true" [selectable]="false"></igx-column>
